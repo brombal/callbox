@@ -1,0 +1,43 @@
+{
+  "name": "callbox",
+  "version": "1.0.0",
+  "description": "Callbox app",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "watch": "NODE_ENV=dev nodemon $NODE_DEBUG_OPTION --require ts-node/register src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Brombal",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "source-map-support": "^0.5.16",
+    "tsc-watch": "^4.2.3"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.3",
+    "@types/lodash": "^4.14.149",
+    "@types/moment-duration-format": "^2.2.2",
+    "@types/mongodb": "^3.5.2",
+    "@types/validator": "^12.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "humanize-duration": "^3.22.0",
+    "lodash": "^4.17.15",
+    "module-alias": "^2.2.2",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "moment-parse-duration": "^1.0.0",
+    "mongodb": "^3.5.4",
+    "random-js": "^2.1.0",
+    "timestring": "^6.0.0",
+    "ts-node": "^8.6.2",
+    "twilio": "^3.40.0",
+    "typescript": "^3.8.3",
+    "validator": "^12.2.0"
+  },
+  "_moduleAliases": {}
+}
